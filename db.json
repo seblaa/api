@@ -1,0 +1,38 @@
+{
+    "RequiredAppVersion": "0.0.1",
+    "SessionID": "this is an identifier for your session, eventually",
+    "FullScreenAsset": "link to AEM asset"
+}
+    
+    "Messages":
+    [
+        {
+            "Type": "Mode",
+            "MsgType": "Player" || "System" || "RG",
+            "Value": "degraded" || "maintenance"
+        },
+        {
+            "Type": "Alert",
+            "MsgType": "Player" || "System" || "RG" || "Games",
+            "Value":
+                {
+                    "MsgId": MAINT_MODE_MSG112,
+                    "MsgCode": a1, a2,.... // "a1" = timeout in n seconds, "a2" = display modal
+                    "Start": 32345534535345769,
+                    "End": 32345534535345769
+                }
+        },
+        {
+            "Type": "Degraded",
+            "MsgType": "Player" || "System" || "RG",
+            "Value": "bingo"
+        },
+    ]
+    "Ui":
+    [
+        {
+            "Type": "Home"
+            "Id": 1
+        }
+    ]
+}
