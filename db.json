@@ -1,26 +1,26 @@
 {
-"RequiredAppVersion": "0.0.1",
-"SessionID": "this is a session ID, eventually",
-"FullScreenAsset": "https://aem.alc.ca/FullScreenImageUrl",
-"Messages": [
-    {
-        "Type": "Mode",
-        "MsgType": "System",
-        "Value": "degraded"
-    },
-    {
-        "Type": "degraded",
-        "MsgType": "System",
-        "Value": "bingo"
-    },
-    {
-        "Type": "Alert",
-        "MsgType": "Player",
-        "Value": {
-            "MsgId": "MAINT_MODE_MSG112",
-            "Start": "32345534535345769",
-            "End": "32345534535345769"
+    "RequiredAppVersion": "0.0.1",
+    "SessionID": "this is a session ID, eventually",
+    "FullScreenAsset": "https://aem.alc.ca/FullScreenImageUrl",
+    "Messages": [
+        {
+            "Type": "Mode",
+            "MsgType": "System",
+            "Value": "degraded"
+        },
+        {
+            "Type": "degraded",
+            "MsgType": "System",
+            "Value": "bingo"
+        },
+        {
+            "Type": "Alert",
+            "MsgType": "Player",
+            "Value": {
+                "MsgId": "MAINT_MODE_MSG112",
+                "Start": "32345534535345769",
+                "End": "32345534535345769"
+            }
         }
-    }
-]
+    ]
 }
