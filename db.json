@@ -8,18 +8,18 @@
     [
         {
             "Type": "Mode",
-            "MsgType": "Player" || "System" || "RG",
-            "Value": "degraded" || "maintenance"
+            "MsgType": "Player",
+            "Value": "degraded"
         },
         {
             "Type": "Alert",
-            "MsgType": "Player" || "System" || "RG" || "Games",
+            "MsgType": "Player",
             "Value":
                 {
-                    "MsgId": MAINT_MODE_MSG112,
-                    "MsgCode": a1, a2,.... // "a1" = timeout in n seconds, "a2" = display modal
-                    "Start": 32345534535345769,
-                    "End": 32345534535345769
+                    "MsgId": "MAINT_MODE_MSG112",
+                    "MsgCode": "a1",
+                    "Start": "32345534535345769",
+                    "End": "32345534535345769"
                 }
         },
         {
@@ -31,8 +31,8 @@
     "Ui":
     [
         {
-            "Type": "Home"
-            "Id": 1
+            "Type": "Home",
+            "Id": "1"
         }
     ]
 }
