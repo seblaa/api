@@ -24,7 +24,7 @@
         },
         {
             "Type": "Degraded",
-            "MsgType": "Player" || "System" || "RG",
+            "MsgType": "System",
             "Value": "bingo"
         },
     ]
